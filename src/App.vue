@@ -2,7 +2,7 @@
   <div id="app">
     <h1 id="top-banner"><a href="./">NANGIJALATÅGET</a></h1>
     <p id="bottom-banner">shit that happends on my journey to Nangijala</p>
-    <FrontPage msg="Welcome to Your Vue.js App"/>
+    <FrontPage msg="Projects hasn't been added yet"/>
   </div>
 </template>
 
@@ -27,7 +27,6 @@ body {
 a {
   color: #ebcb8b;
 }
-
 
 #top-banner a{
   color: #bf616a;
