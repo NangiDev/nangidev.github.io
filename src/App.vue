@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <h1 id="top-banner">NANGIJALATÅGET</h1>
+    <h1 id="top-banner"><a href="./">NANGIJALATÅGET</a></h1>
     <p id="bottom-banner">shit that happends on my journey to Nangijala</p>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FrontPage msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FrontPage from './components/FrontPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FrontPage
   }
 }
 </script>
@@ -28,12 +28,21 @@ a {
   color: #ebcb8b;
 }
 
+
+#top-banner a{
+  color: #bf616a;
+  text-decoration: none;
+}
+#top-banner a:hover{
+  color: #d08770;
+  text-decoration: none;
+}
 #top-banner {
   font-size: calc(4vw + 4vh);
   margin-bottom: 0px;
 }
 #bottom-banner {
-  font-size: calc(2vw + 1vh);
+  font-size: calc(2vw + 0vh);
   margin: 0px;
 }
 
