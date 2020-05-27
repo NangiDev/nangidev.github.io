@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <h1 id="top-banner">NANGIJALATÅGET</h1>
+    <p id="bottom-banner">shit that happends on my journey to Nangijala</p>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -17,12 +18,29 @@ export default {
 </script>
 
 <style>
+body {
+  background: #2e3440;
+  color: #bf616a;
+  color: #eceff4;
+}
+
+a {
+  color: #ebcb8b;
+}
+
+#top-banner {
+  font-size: calc(4vw + 4vh);
+  margin-bottom: 0px;
+}
+#bottom-banner {
+  font-size: calc(2vw + 1vh);
+  margin: 0px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
