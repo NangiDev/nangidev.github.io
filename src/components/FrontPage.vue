@@ -1,23 +1,15 @@
 <template>
   <div>
-    <from-something />
+    <AboutPage />
   </div>
 </template>
 
 <script>
-  import fm from "./articles/about.md"
-
   export default {
     name: 'FrontPage',
     props: {
     },
     components: {
-      FromSomething: fm.vue.component
-    },
-    data () {
-      return {
-        title: fm.attributes.title
-      }
     }
 }
 </script>
