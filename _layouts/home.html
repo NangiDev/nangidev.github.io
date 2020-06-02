@@ -14,7 +14,7 @@ layout: default
   <ul class="post-list">
     {%- for i in (0..site.posts.size) -%}
     {%- if i >= 4 -%}
-    {%- break -%}
+      {%- break -%}
     {%- endif -%}
     {%- assign post = site.posts[i] -%}
     <li>
