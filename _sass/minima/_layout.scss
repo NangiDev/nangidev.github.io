@@ -207,6 +207,7 @@
 }
 
 .post-list {
+  border-radius: 10px;
   margin: 0;
   padding-bottom: 100px;
   list-style: none;
@@ -221,6 +222,7 @@
 } 
   
 .post-link {
+  border-radius: 10px;
   display: block;
   @include relative-font-size(1.5);
 
@@ -254,17 +256,39 @@
 }
 
 .post-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $text-color;
   margin-bottom: $spacing-unit;
+  height: 14vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: $box-radius;
 }
 
 .post-title {
   // @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  margin: 0 auto;
+  padding-bottom: 15px;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
+}
+
+.post-meta {
+  margin: 0 auto;
+}
+
+.post-meta-wrapper {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: $box-radius;
 }
 
 .post-content {
