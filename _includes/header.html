@@ -4,6 +4,9 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="footer-col footer-col-0">
+      {%- include social.html -%}
+    </div>
     <!-- <p class="site-description">{{- site.description | escape -}}</p> -->
 
     <!-- {%- if page_paths -%}

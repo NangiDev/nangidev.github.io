@@ -17,6 +17,7 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
+  background: linear-gradient( rgba(0, 0, 0, 1), $background-color, rgba(0, 0, 0, 1));
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -216,14 +217,14 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
+    fill: #{$brand-color};
+    padding: 0px;
     vertical-align: text-top;
 }
 
 .social-media-list {
   li + li {
-    padding-top: 5px;
+    padding: 0px;
   }
 }
 
