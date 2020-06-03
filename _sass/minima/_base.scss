@@ -17,7 +17,7 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
-  background: linear-gradient( rgba(0, 0, 0, 1), $background-color, rgba(0, 0, 0, 1));
+  background: linear-gradient( $black-color, $background-color, $black-color);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
