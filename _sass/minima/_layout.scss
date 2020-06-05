@@ -224,6 +224,7 @@
   border-radius: $box-radius;
   display: flex;
   flex-direction: column;
+  align-content: stretch;
   @include relative-font-size(1.5);
 
   min-width: 100px;
@@ -242,8 +243,25 @@
   text-decoration: none !important;
 
   p {
+    align-content: stretch;
     color: $text-color;
-    margin: 10px;
+    margin: 0 5px;
+    padding: 5px;
+  }
+
+  .thumbnail-title {
+    margin-top: 5px;
+    display: none;
+    font-size: large;
+    text-align: left;
+  }
+
+  .thumbnail-bread {
+    margin-bottom: 5px;
+    display: none;
+    text-align: left;
+    overflow: hidden;
+    font-size: small;
   }
 }
 
@@ -255,21 +273,6 @@
 .post-link:hover .thumbnail-bread {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   display: flex;
-}
-
-.thumbnail-title {
-  height: 20%;
-  display: none;
-  font-size: large;
-  text-align: left;
-}
-
-.thumbnail-bread {
-  height: 80%;
-  display: none;
-  font-size: small;
-  text-align: left;
-  overflow: hidden;
 }
 
 .post-latest-link {
