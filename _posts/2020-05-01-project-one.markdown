@@ -4,13 +4,13 @@ title:  Project One
 date:   2020-05-01
 categories: project
 thumbnail: https://raw.githubusercontent.com/NangiDev/pico-8-projects/master/gifs/ninja.gif
+bread: Feel free to use everything as you please. Some creds would be fun, but not mandatory. The graphics for Ninja.p8 are all made by me, but are heavily inspired by another game, Super Crate Box http://supercratebox.com/
 ---
-# pico-8-projects
+# pico-8-project
 
 Work in progess!
 
-Feel free to use everything as you please. Some creds would be fun, but not mandatory.
-The graphics for Ninja.p8 are all made by me, but are heavily inspired by another game, Super Crate Box http://supercratebox.com/
+{{ page.bread }}
 
 Also a good site I would recommend are https://github.com/clowerweb/Lib-Pico8.
 
