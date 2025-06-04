@@ -23,7 +23,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
 ### Jekyll ###
 _site
 .jekyll-cache
@@ -34,3 +33,6 @@ _site
 
 ### Gemfile ###
 Gemfile.lock
+
+### GitHub ###
+.github
