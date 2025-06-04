@@ -4,6 +4,14 @@ title: About
 permalink: /about
 ---
 
-# Portfolio Jekyll Theme
+# About Me
 
-This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
+Hi there! 👋 
+
+I'm a developer, builder, and perpetual tinkerer who enjoys turning ideas into elegant code — or at least code that doesn’t crash *immediately*. My journey has taken me through game dev, custom tools, and way too many late-night experiments that began with "just a quick test..."
+
+I like building things from scratch — sometimes even reinventing the wheel, but with better spokes. Whether it's programming languages, backend systems, or pixel-perfect UI, I find joy in the creative process of making things that work *and* look good doing it.
+
+So when I’m not coding, you might find me prototyping hardware, simplifying something overly complex, or convincing myself that this time I really will document my side project properly.
+
+Thanks for dropping by — take a look around!
