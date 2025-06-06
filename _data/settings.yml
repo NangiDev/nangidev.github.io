@@ -23,8 +23,9 @@ projects:
 social:
 # - {icon: 'twitter',   link: 'https://twitter.com/paululele'}
 # - {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'github',    link: 'https://github.com/NangiDev'}
-- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/joelsetterberg/'}
+- {icon: 'github', icon_type: 'fa', link: 'https://github.com/NangiDev'}
+- {icon: 'linkedin', icon_type: 'fa', link: 'https://www.linkedin.com/in/joelsetterberg/'}
+- {icon: 'itch-dot-io', icon_type: 'icomoon', link: 'https://nangi.itch.io/'}
 # - {icon: 'envelope',  link: 'mailto:mailto:l.nguyen.paul@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
